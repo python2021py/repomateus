@@ -1,0 +1,19 @@
+usuario = input('\033[0;31;42mdigite seu usuario: ')
+senha = input('digite sua senha:')
+if usuario == 'Prito':
+	print('usuario correto e senha correta')
+elif senha == 'Prito':
+	print('senha correta')
+else:
+	print('usuario incorreto e senha incorreto')
+print('/\∆')
+print('[01]DDD DA CIDADE:')
+print('[02]GERADOR DE CPF:')
+print('[03]GERADOR DE TELEFONE:')
+print('[04]CONSULTA BANCO:')
+print('[05]GERADOR DE NOME:')
+algo = input('DIGITE UM NUMERO (EX) 01 ou nome: ')
+print(algo)
+cpf = input('GERADO DE CPF DIGITA 02 PRA GERA O CPF:')
+if cpf == '02':
+	print('seu cpf foi gerado cpf e :[93939383838] %s'%cpf)
